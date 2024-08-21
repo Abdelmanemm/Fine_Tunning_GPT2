@@ -33,7 +33,7 @@ gpt2-joke-generator/
 ├── requirements.txt # Python dependencies required to run the project
 ├── README.md # Project documentation
 └── .gitignore # Git ignore file
-
+```
 ## Installation
 
 To set up the project locally, follow these steps:
@@ -42,13 +42,12 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/gpt2-joke-generator.git
    cd gpt2-joke-generator
-```
 2. **Create Virtual enviroment**
 ```
 python3 -m venv venv
 source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 ```
-4. **Install requirements**
+3. **Install requirements**
 ```
 pip install -r requirements.txt
 ```
