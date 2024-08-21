@@ -59,7 +59,7 @@ To set up the project locally, follow these steps:
    checkpoint  in ./results directory you can later use this to run the api
 
 ## Usage
-   ###Running APi 
+   ### Running APi 
    to start api server just navigate to /scr/ directory and run
    ```
    python3 api.py
