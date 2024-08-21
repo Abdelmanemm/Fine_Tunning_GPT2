@@ -25,7 +25,6 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/gpt2-joke-generator.git
    cd gpt2-joke-generator
-'''
 
 2. **Create Virtual enviroment**
 ```
