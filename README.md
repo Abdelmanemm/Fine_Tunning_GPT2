@@ -59,5 +59,15 @@ To set up the project locally, follow these steps:
    checkpoint  in ./results directory you can later use this to run the api
 
 ## Usage
-   Running APi
+   Running APi 
+   to start api server just navigate to /scr/ directory and run
+   ```
+   python3 api.py
+   ```
+   you migth face a error like this
+   ```
+   [Errno 98] error while attempting to bind on address ('127.0.0.1', 8009): [errno 98] address already in use
+   ```
+   to solve  it just change the port number to a port that is not used 
+   
    
