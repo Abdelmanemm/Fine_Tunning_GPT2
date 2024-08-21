@@ -102,6 +102,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Contact
 If you have any questions or feedback, feel free to reach out:
 
-Name: Abdelmanem Mohamed
-Email: abdelmanemmohameed@gmail.com
-LinkedIn: https://www.linkedin.com/in/abdelmanem-mohamed-606a1b260/
+- **Name:** Abdelmanem Mohamed
+- **Email:** abdelmanemmohameed@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/abdelmanem-mohamed-606a1b260/
