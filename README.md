@@ -78,3 +78,16 @@ To set up the project locally, follow these steps:
    ![Joke Generator - Google Chrome 8_21_2024 8_49_41 PM](https://github.com/user-attachments/assets/6376e330-920b-41c7-8a80-e5eefa4a538e)
    now you can enter your prompt and click generate joke and wait a couple secs and you will have an output like this
    ![Joke Generator - Google Chrome 8_21_2024 8_52_39 PM](https://github.com/user-attachments/assets/d63a896c-7675-47ea-9e49-2f174700f545)
+## Model Details
+   The GPT-2 model used in this project has been fine-tuned on a dataset containing 300 jokes. The fine-tuning was conducted over several epochs to ensure that the model could generate coherent and humorous text based on     various prompts.
+   
+   Dataset
+   The dataset used for fine-tuning consists of joke text collected from various sources. For the purposes of this project, a subset of 2000 jokes was randomly selected to optimize performance and reduce training time.
+   
+   Examples
+   Here are some example prompts and their corresponding generated jokes:
+   
+   Prompt: "Why don't programmers trust elevators?"
+   Generated Joke: "Because they know it's full of bugs!"
+   Prompt: "Why was the math book sad?"
+   Generated Joke: "Because it had too many problems."
