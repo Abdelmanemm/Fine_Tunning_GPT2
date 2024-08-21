@@ -28,7 +28,11 @@ To set up the project locally, follow these steps:
 '''
 
 2. **Create Virtual enviroment**
+```
 python3 -m venv venv
 source venv/bin/activate   # On Windows use `venv\Scripts\activate`
-3. **Install requirements**
+```
+4. **Install requirements**
+```
 pip install -r requirements.txt
+```
