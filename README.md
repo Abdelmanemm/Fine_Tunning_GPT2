@@ -26,8 +26,9 @@ To set up the project locally, follow these steps:
    git clone https://github.com/yourusername/gpt2-joke-generator.git
    cd gpt2-joke-generator
 '''
+
 2. **Create Virtual enviroment**
 python3 -m venv venv
 source venv/bin/activate   # On Windows use `venv\Scripts\activate`
-3. **Install requirements
+3. **Install requirements**
 pip install -r requirements.txt
