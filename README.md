@@ -7,12 +7,11 @@ This project is a fine-tuned GPT-2 model designed to generate jokes based on use
 1. [Project Structure](#project-structure)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [API Documentation](#api-documentation)
-5. [Model Details](#model-details)
-6. [Examples](#examples)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
+4. [Model Details](#model-details)
+5. [Examples](#examples)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
 ## Project Structure
 ```
@@ -35,21 +34,21 @@ gpt2-joke-generator/
 
 To set up the project locally, follow these steps:
 
-1. **Clone the repository:**
+### 1. **Clone the repository:**
    ```
    git clone https://github.com/Abdelmanemm/PRODIGY_GA_01.git
    cd PRODIGY_GA_01
    ```
-2. **Create Virtual enviroment**
+### 2. **Create Virtual enviroment**
    ```
    python3 -m venv venv
    source venv/bin/activate   # On Windows use `venv\Scripts\activate`
    ```
-3. **Install requirements**
+### 3. **Install requirements**
    ```
    pip install -r requirements.txt
    ```
-4. ### **Download pretrained model** 
+### 4. **Download pretrained model** 
    sorry but the fine tuned model size is about 3.96 GB which I can't upload on
    github due to size limitaions just download data and apply process_data.py file
    and then use the output and run training.ipynb notebook it will save the model
