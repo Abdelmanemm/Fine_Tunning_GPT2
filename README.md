@@ -68,6 +68,11 @@ To set up the project locally, follow these steps:
    ```
    [Errno 98] error while attempting to bind on address ('127.0.0.1', 8009): [errno 98] address already in use
    ```
-   to solve  it just change the port number to a port that is not used 
-   
-   
+   to solve  it just change the port number to a port that is not used \n
+
+   After the api succefully runs it will provide a link something like this
+   ```
+    http://127.0.0.1:8010
+   ```
+   after clicking on it it will take you to your browser and you will see the home page
+   ![Joke Generator - Google Chrome 8_21_2024 8_49_41 PM](https://github.com/user-attachments/assets/6376e330-920b-41c7-8a80-e5eefa4a538e)
