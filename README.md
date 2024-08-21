@@ -87,8 +87,7 @@ To set up the project locally, follow these steps:
    
    Examples
    Here are some example prompts and their corresponding generated jokes:
-   
-   Prompt: "Why don't programmers trust elevators?"
-   Generated Joke: "Because they know it's full of bugs!"
-   Prompt: "Why was the math book sad?"
-   Generated Joke: "Because it had too many problems."
+   -Prompt: "Why don't programmers trust elevators?"
+      Generated Joke: "They're always up to something"
+   -Prompt: "Why was the math book sad?"
+      Generated Joke: "Because it had too many problems."
