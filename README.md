@@ -52,3 +52,8 @@ To set up the project locally, follow these steps:
    ```
    pip install -r requirements.txt
    ```
+4. **Download pretrained model**
+   sorry but the fine tuned model size is about 3.96 GB which I can't upload on
+   github due to size limitaions just download data and apply process_data.py file
+   and then use the output and run training.ipynb notebook it will save the model
+   checkpoint  in ./results directory you can later use this to run the api 
