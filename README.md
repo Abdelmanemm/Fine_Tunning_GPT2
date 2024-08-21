@@ -76,3 +76,5 @@ To set up the project locally, follow these steps:
    ```
    after clicking on it it will take you to your browser and you will see the home page
    ![Joke Generator - Google Chrome 8_21_2024 8_49_41 PM](https://github.com/user-attachments/assets/6376e330-920b-41c7-8a80-e5eefa4a538e)
+   now you can enter your prompt and click generate joke and wait a couple secs and you will have an output like this
+   ![Joke Generator - Google Chrome 8_21_2024 8_52_39 PM](https://github.com/user-attachments/assets/d63a896c-7675-47ea-9e49-2f174700f545)
