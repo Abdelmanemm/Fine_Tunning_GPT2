@@ -95,4 +95,6 @@ Here are some example prompts and their corresponding generated jokes:
 
 - **Prompt:** "Why was the math book sad?"
   - **Generated Joke:** "Because it had too many problems."
+## Contributing
+Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request. Ensure your code adheres to the existing code style and includes appropriate tests.
 
