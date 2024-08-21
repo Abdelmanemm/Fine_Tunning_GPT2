@@ -83,7 +83,8 @@ To set up the project locally, follow these steps:
    over several epochs to ensure that the model could generate coherent and humorous text based on various prompts.
    
    **Dataset**
-   The dataset used for fine-tuning consists of joke text collected from various sources. For the purposes of this project, a subset of 2000 jokes was randomly selected to optimize performance and reduce training time.
+   The dataset used for fine-tuning is from https://www.kaggle.com/datasets/thedevastator/one-million-reddit-jokes all info about data will be found 
+   in /data/Data Info.txt.For the purposes of this project, a subset of 20000 jokes was randomly selected to optimize performance and reduce training time.
    
    **Examples**
    Here are some example prompts and their corresponding generated jokes:
