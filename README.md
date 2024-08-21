@@ -82,10 +82,10 @@ To set up the project locally, follow these steps:
    The GPT-2 model used in this project is the gpt2-medium with 355M paramters the model has been fine-tuned on a dataset containing 20000 jokes.The fine-tuning was conducted 
    over several epochs to ensure that the model could generate coherent and humorous text based on various prompts.
    
-   Dataset
+   **Dataset**
    The dataset used for fine-tuning consists of joke text collected from various sources. For the purposes of this project, a subset of 2000 jokes was randomly selected to optimize performance and reduce training time.
    
-   Examples
+   **Examples**
    Here are some example prompts and their corresponding generated jokes:
    -Prompt: "Why don't programmers trust elevators?"
       Generated Joke: "They're always up to something"
