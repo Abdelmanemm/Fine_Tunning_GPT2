@@ -15,7 +15,24 @@ This project is a fine-tuned GPT-2 model designed to generate jokes based on use
 9. [Contact](#contact)
 
 ## Project Structure
-
+```
+gpt2-joke-generator/
+│
+├── src/
+│ ├── init.py # Initializes the src module
+│ ├── main.py # Main entry point of the API
+│ ├── utils.py # Utility functions for data processing and model handling
+│ └── api.py # FastAPI setup and route definitions
+│
+├── model/
+│ └── checkpoint-30000/ # Directory containing the fine-tuned GPT-2 model
+│
+├── data/
+│ └── jokes.csv # Dataset used for fine-tuning the model
+│
+├── requirements.txt # Python dependencies required to run the project
+├── README.md # Project documentation
+└── .gitignore # Git ignore file
 
 ## Installation
 
@@ -25,7 +42,7 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/gpt2-joke-generator.git
    cd gpt2-joke-generator
-
+```
 2. **Create Virtual enviroment**
 ```
 python3 -m venv venv
