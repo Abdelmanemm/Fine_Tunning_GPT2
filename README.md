@@ -79,16 +79,20 @@ To set up the project locally, follow these steps:
    now you can enter your prompt and click generate joke and wait a couple secs and you will have an output like this
    ![Joke Generator - Google Chrome 8_21_2024 8_52_39 PM](https://github.com/user-attachments/assets/d63a896c-7675-47ea-9e49-2f174700f545)
 ## Model Details
-   The GPT-2 model used in this project is the gpt2-medium with 355M paramters the model has been fine-tuned on a dataset containing 20000 jokes.The fine-tuning was conducted 
-   over several epochs to ensure that the model could generate coherent and humorous text based on various prompts.
-   
-   **Dataset**
-   The dataset used for fine-tuning is from https://www.kaggle.com/datasets/thedevastator/one-million-reddit-jokes all info about data will be found 
-   in /data/Data Info.txt.For the purposes of this project, a subset of 20000 jokes was randomly selected to optimize performance and reduce training time.
-   
-   **Examples**
-   Here are some example prompts and their corresponding generated jokes:
-   -Prompt: "Why don't programmers trust elevators?"
-      Generated Joke: "They're always up to something"
-   -Prompt: "Why was the math book sad?"
-      Generated Joke: "Because it had too many problems."
+
+The GPT-2 model used in this project is the `gpt2-medium` with 355 million parameters. The model has been fine-tuned on a dataset containing 20,000 jokes. Fine-tuning was conducted over several epochs to ensure that the model could generate coherent and humorous text based on various prompts.
+
+### Dataset
+
+The dataset used for fine-tuning is available at [Kaggle - One Million Reddit Jokes](https://www.kaggle.com/datasets/thedevastator/one-million-reddit-jokes). All information about the data can be found in `/data/Data Info.txt`. For the purposes of this project, a subset of 20,000 jokes was randomly selected to optimize performance and reduce training time.
+
+### Examples
+
+Here are some example prompts and their corresponding generated jokes:
+
+- **Prompt:** "Why don't programmers trust elevators?"
+  - **Generated Joke:** "They're always up to something."
+
+- **Prompt:** "Why was the math book sad?"
+  - **Generated Joke:** "Because it had too many problems."
+
