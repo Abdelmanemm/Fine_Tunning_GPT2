@@ -37,8 +37,8 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/yourusername/gpt2-joke-generator.git
-   cd gpt2-joke-generator
+   git clone https://github.com/Abdelmanemm/PRODIGY_GA_01.git
+   cd PRODIGY_GA_01
    ```
 2. **Create Virtual enviroment**
    ```
@@ -49,7 +49,7 @@ To set up the project locally, follow these steps:
    ```
    pip install -r requirements.txt
    ```
-4. **Download pretrained model** 
+4. ### **Download pretrained model** 
    sorry but the fine tuned model size is about 3.96 GB which I can't upload on
    github due to size limitaions just download data and apply process_data.py file
    and then use the output and run training.ipynb notebook it will save the model
