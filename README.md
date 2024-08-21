@@ -52,7 +52,7 @@ To set up the project locally, follow these steps:
    ```
    pip install -r requirements.txt
    ```
-4. Download pretrained model
+4. Download pretrained model:
    sorry but the fine tuned model size is about 3.96 GB which I can't upload on
    github due to size limitaions just download data and apply process_data.py file
    and then use the output and run training.ipynb notebook it will save the model
@@ -68,7 +68,7 @@ To set up the project locally, follow these steps:
    ```
    [Errno 98] error while attempting to bind on address ('127.0.0.1', 8009): [errno 98] address already in use
    ```
-   to solve  it just change the port number to a port that is not used \n
+   to solve  it just change the port number to a port that is not used 
 
    After the api succefully runs it will provide a link something like this
    ```
