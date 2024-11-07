@@ -100,4 +100,4 @@ If you have any questions or feedback, feel free to reach out:
 
 - **Name:** Abdelmanem Mohamed
 - **Email:** abdelmanemmohameed@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/abdelmanem-mohamed-606a1b260/
+- **LinkedIn:** https://www.linkedin.com/in/abdelmanem-mohamed/
