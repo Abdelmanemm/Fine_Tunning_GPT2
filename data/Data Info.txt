@@ -1,13 +1,23 @@
-*** Note: csv files was not uploaded because of GitHub limitations on file size but link to data 
-is provided in and you can use process_data.py to achieve same data I used to train model ***
-Data From https://www.kaggle.com/datasets/thedevastator/one-million-reddit-jokes
-data is a collection of one million jokes form  r/Jokes subreddit data consist of 
-multiple features but I only kept title  and  self text which is punchline 
-in the process_data.py all the preparation for data was done which include the following
-1-importing data
-2-droping unwanted columns
-3-droping missing values
-4-cleaning title column from incorrect values like [removed] which was in about 23% of data
-[deleted] was about 19% of data
-5-concatnate title with self text to create a joke columns
-6-save cleaned data in a csv file so later use to train model
+# Reddit Jokes Dataset - Data Preparation
+
+**Note:** The CSV files are not uploaded due to GitHub's file size limitations. However, a link to the data is provided, and you can use `process_data.py` to preprocess the data as I did to train the model.
+
+- **Dataset Source:** [One Million Reddit Jokes](https://www.kaggle.com/datasets/thedevastator/one-million-reddit-jokes)
+  
+The dataset consists of one million jokes from the r/Jokes subreddit. It includes multiple features, but I retained only the `title` (setup) and `selftext` (punchline) columns for this project.
+
+### Data Preparation Steps in `process_data.py`
+
+The script performs the following steps:
+
+1. Import the dataset.
+2. Drop unwanted columns.
+3. Remove rows with missing values.
+4. Clean the `title` column by removing incorrect values:
+   - `[removed]` in ~23% of the data.
+   - `[deleted]` in ~19% of the data.
+5. Concatenate the `title` and `selftext` columns to create a new `joke` column.
+6. Save the cleaned data as a CSV file, which is used later to train the model.
+
+Feel free to use the `process_data.py` script to recreate the cleaned dataset.
+
